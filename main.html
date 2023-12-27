@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <title>Video Speed Scrubber</title>
   <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
   <div class="wrapper">
-    <video class="flex" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" controls></video>
+    <video class="flex" width="765" height="430" src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/webm" controls></video>
     <div class="speed">
-      <div class="speed-bar">1×</div>
+      <div class="speed-bar"></div>
     </div>
+	  <div class="control">
+		  <i class="fa-solid fa-backward"></i>
+		  <i class="fa-solid fa-play"></i>
+		  <i class="fa-solid fa-forward"></i>
+	  </div>
   </div>
 
 <script  src="./script.js">

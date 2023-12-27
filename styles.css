@@ -1,2 +1,24 @@
-
 /* Your CSS Code here. */
+.wrapper{
+	width:600px;
+}
+video{
+	width:100%;
+}
+.speed{
+	width:100%;
+}
+.speed-bar{
+	height:5px;
+	width:90%;
+	margin: 10px auto;
+	background-color:red;
+}
+.control{
+	margin:auto;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	padding:0px 200px;
+}
